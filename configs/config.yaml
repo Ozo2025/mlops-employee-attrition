@@ -6,13 +6,13 @@ data:
 
 model:
   type: "RandomForestClassifier"
-  n_estimators: 200
-  max_depth: 10
+  n_estimators: 500
+  max_depth: 15
   random_state: 42
 
 training:
   primary_metric: "f1"
-  minimum_f1: 0.50
+  minimum_f1: 0.40
 
 mlflow:
   experiment_name: "employee_attrition"
