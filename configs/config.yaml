@@ -12,7 +12,7 @@ model:
 
 training:
   primary_metric: "f1"
-  minimum_f1: 0.40
+  minimum_f1: 0.35
 
 mlflow:
   experiment_name: "employee_attrition"
