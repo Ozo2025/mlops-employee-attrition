@@ -1,0 +1,23 @@
+data:
+  raw_path: "data/employee_attrition.csv"
+  target: "Attrition"
+  test_size: 0.20
+  random_state: 42
+
+model:
+  type: "RandomForestClassifier"
+  n_estimators: 200
+  max_depth: 10
+  random_state: 42
+
+training:
+  primary_metric: "f1"
+  minimum_f1: 0.50
+
+mlflow:
+  experiment_name: "employee_attrition"
+  data_version: "v1"
+
+monitoring:
+  drift_threshold: 0.30
+  report_path: "reports/drift_report.html"

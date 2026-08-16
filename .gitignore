@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Data
+data/*.csv
+data/*.parquet
+data/*.json
+
+# Models and artifacts
+models/
+artifacts/
+*.pkl
+*.joblib
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Evidently reports
+reports/*.html
+
+# DVC cache
+.dvc/cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
