@@ -1,4 +1,4 @@
 [core]
     remote = localremote
 ['remote "localremote"']
-    url = C:\Project17-DVC-Remote
+    url = https://raw.githubusercontent.com/Ozo2025/mlops-employee-attrition-dvc/main
